@@ -25,6 +25,7 @@ interface IProps {
   labelStyle?: React.CSSProperties
   labelTextStyle?: React.CSSProperties
   showLabels?: boolean
+  ariaValueText?: string
 }
 
 const TwoThumbInputRange = ({
@@ -41,6 +42,7 @@ const TwoThumbInputRange = ({
   labelStyle,
   labelTextStyle,
   showLabels = true,
+  ariaValueText = "",
 }: IProps) => {
   const limitsRef = useRef({ min, max })
   const range1Ref = useRef<HTMLInputElement | null>(null)
@@ -126,6 +128,7 @@ const TwoThumbInputRange = ({
         }}
       >
         <InputRange
+          ariaValueText={ariaValueText}
           thumbColor={thumbColor}
           thumbStyle={thumbStyle}
           thumbFocusStyle={thumbFocusStyle}
@@ -138,6 +141,7 @@ const TwoThumbInputRange = ({
         />
 
         <InputRange
+          ariaValueText={ariaValueText}
           thumbColor={thumbColor}
           thumbStyle={thumbStyle}
           thumbFocusStyle={thumbFocusStyle}

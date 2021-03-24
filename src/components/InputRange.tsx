@@ -11,6 +11,7 @@ interface IInputRange {
   thumbColor?: string
   thumbStyle?: React.CSSProperties
   thumbFocusStyle?: React.CSSProperties
+  ariaValueText?: string
 }
 
 const InputRange = ({
@@ -23,10 +24,15 @@ const InputRange = ({
   thumbStyle,
   thumbColor,
   thumbFocusStyle,
+  ariaValueText,
 }: IInputRange) => {
   return (
     <>
       <input
+        aria-valuemax={max}
+        aria-valuemin={min}
+        aria-valuenow={value}
+        aria-valuetext={ariaValueText}
         step={1}
         ref={referance}
         type="range"
