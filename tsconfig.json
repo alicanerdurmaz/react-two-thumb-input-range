@@ -15,5 +15,14 @@
     "jsxImportSource": "@emotion/react"
   },
   "include": ["**/*.tsx", "**/*.ts"],
-  "exclude": ["node_modules", "build", "dist", "lib", "storybook-static", "src/**/*.stories.tsx", "src/**/*.test.tsx"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "lib",
+    "storybook-static",
+    "src/**/*.stories.tsx",
+    "src/**/*.test.tsx",
+    "examples"
+  ]
 }

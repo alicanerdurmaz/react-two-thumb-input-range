@@ -30,8 +30,8 @@ interface IProps {
 const TwoThumbInputRange = ({
   onChange,
   values,
-  min,
-  max,
+  min = 0,
+  max = 100,
   railColor = "#EDF2F7",
   trackColor = "#1976d2",
   thumbColor = "#1976d2",
@@ -115,7 +115,7 @@ const TwoThumbInputRange = ({
         onMouseDown={(e) => onInputClickHandler(e)}
         css={{
           position: "relative",
-          width: "500px",
+          width: "200px",
           height: "2px",
           borderRadius: "6px",
           display: "flex",
