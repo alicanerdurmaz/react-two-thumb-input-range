@@ -1,4 +1,5 @@
-import { css, jsx } from "@emotion/react"
+/** @jsxImportSource @emotion/react */
+import React from "react"
 
 interface IProps {
   value: [number, number]

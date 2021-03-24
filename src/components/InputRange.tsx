@@ -1,4 +1,6 @@
-import { css, jsx } from "@emotion/react"
+/** @jsxImportSource @emotion/react */
+import React from "react"
+
 interface IInputRange {
   referance: React.MutableRefObject<HTMLInputElement | null>
   name: string

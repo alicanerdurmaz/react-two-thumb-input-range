@@ -1,5 +1,5 @@
-import { css, jsx } from "@emotion/react"
-import { useMemo, useRef } from "react"
+/** @jsxImportSource @emotion/react */
+import React, { useMemo, useRef } from "react"
 
 import {
   calculateRatio,

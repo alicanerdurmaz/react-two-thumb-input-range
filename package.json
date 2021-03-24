@@ -1,6 +1,6 @@
 {
   "name": "react-two-thumb-input-range",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Accessible two thumb input range component for React that implements <input type=range>",
   "keywords": [
     "react",
@@ -22,6 +22,9 @@
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -31,11 +34,13 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.12.10",
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
     "@babel/preset-react": "7.12.13",
     "@babel/preset-typescript": "^7.13.0",
     "@emotion/babel-plugin": "^11.2.0",
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@emotion/react": "11.1.5",
+    "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "11.1.1",
     "@rollup/plugin-typescript": "8.2.0",
     "@storybook/addon-actions": "6.1.21",
