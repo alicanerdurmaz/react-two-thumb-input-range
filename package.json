@@ -1,6 +1,6 @@
 {
   "name": "react-two-thumb-input-range",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Accessible two thumb input range component for React that implements <input type=range>",
   "keywords": [
     "react",
