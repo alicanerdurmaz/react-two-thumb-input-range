@@ -1,3 +1,5 @@
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-two-thumb-input-range?style=flat-square)
+
 # react-two-thumb-input-range
 
 `TwoThumbInputRange` is a React component allowing users to input numeric values within a specific range.
