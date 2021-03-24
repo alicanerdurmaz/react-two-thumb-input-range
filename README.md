@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./logo.png" />
+</p>
+
+
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-two-thumb-input-range?style=flat-square)
 
 # react-two-thumb-input-range
